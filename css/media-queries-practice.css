@@ -1,7 +1,74 @@
 /* ----------------------------------------
 
 Styles for Media Queries Practice Exercise
-Author: Your Name Here 
+Author: Ryan Elbanna
 
 ----------------------------------------- */
+.body{
+    background-color: orangered;
+}
+
+.box1{background-color: chartreuse;}
+.box2{background-color: crimson;}
+.box3{background-color: violet;}
+.box4{background-color: cornflowerblue;}
+.box5{background-color: cyan;}
+.box6{background-color: blueviolet;}
+.box7{background-color: brown;}
+.box8{background-color: deeppink;}
+.box9{background-color: gold;}
+.box10{background-color: navy;}
+
+.box1 {flex-basis: 99%; margin-bottom: 10px;}
+.box2 {flex-basis: 33%; margin-bottom: 10px;}
+.box3 {flex-basis: 33%; margin-bottom: 10px;}
+.box4 {flex-basis: 33%; margin-bottom: 10px;}
+.box5 {flex-basis: 49%; margin-bottom: 10px;}
+.box6 {flex-basis: 49%; margin-bottom: 10px;}
+.box7 {flex-basis: 24%; margin-bottom: 10px;}
+.box8 {flex-basis: 24%; margin-bottom: 10px;}
+.box9 {flex-basis: 24%; margin-bottom: 10px;}
+.box10 {flex-basis: 24%; margin-bottom: 10px;}
+
+.bigbox{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+@media screen and (max-width: 639px) {
+    body {
+        background-color: blue;
+    }
+.box1 {flex-basis: 99%; margin-bottom: 10px;}
+.box2 {flex-basis: 49%; margin-bottom: 10px;}
+.box3 {flex-basis: 49%; margin-bottom: 10px;}
+.box4 {flex-basis: 99%; margin-bottom: 10px;}
+.box5 {flex-basis: 99%; margin-bottom: 10px;}
+.box6 {flex-basis: 99%; margin-bottom: 10px;}
+.box7 {flex-basis: 99%; margin-bottom: 10px;}
+.box8 {flex-basis: 99%; margin-bottom: 10px;}
+.box9 {flex-basis: 99%; margin-bottom: 10px;}
+.box10 {flex-basis: 99%; margin-bottom: 10px;}
+}
+
+@media screen and (min-width: 639px) and (max-width: 1024px) {
+    body {
+        background-color:teal;      
+    }
+.box1 {flex-basis: 99%; margin-bottom: 10px;}
+.box2 {flex-basis: 49%; margin-bottom: 10px;}
+.box3 {flex-basis: 49%; margin-bottom: 10px;}
+.box4 {flex-basis: 49%; margin-bottom: 10px;}
+.box5 {flex-basis: 49%; margin-bottom: 10px;}
+.box6 {flex-basis: 49%; margin-bottom: 10px;}
+.box7 {flex-basis: 49%; margin-bottom: 10px;}
+.box8 {flex-basis: 24%; margin-bottom: 10px;}
+.box9 {flex-basis: 24%; margin-bottom: 10px;}
+.box10 {flex-basis: 24%; margin-bottom: 10px;}
+}
+
 
